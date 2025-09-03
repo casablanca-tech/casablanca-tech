@@ -76,8 +76,8 @@ export default function Header() {
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
                   className="py-3 md:py-2 font-medium text-gray-700 transition-all duration-200"
-                  onMouseEnter={(e) => e.target.style.color = '#0693e3'}
-                  onMouseLeave={(e) => e.target.style.color = ''}
+                  onMouseEnter={(e) => ((e.target as HTMLElement).style.color = '#0693e3')}
+                  onMouseLeave={(e) => ((e.target as HTMLElement).style.color = '')}
                 >
                   {link.label}
                 </Link>
@@ -87,8 +87,8 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
                 className="mt-6 md:mt-0 md:ml-4 px-6 py-2 text-white rounded transition text-center"
                 style={{backgroundColor: '#0693e3'}}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#0577c7'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#0693e3'}
+                onMouseEnter={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0577c7')}
+                onMouseLeave={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0693e3')}
               >
                 {t('getStarted')}
               </Link>
@@ -103,8 +103,8 @@ export default function Header() {
                       : 'text-gray-700'
                   }`}
                   style={locale === 'en' ? {backgroundColor: '#0693e3'} : {}}
-                  onMouseEnter={(e) => !locale === 'en' && (e.target.style.color = '#0693e3')}
-                  onMouseLeave={(e) => !locale === 'en' && (e.target.style.color = '')}
+                  onMouseEnter={(e) => locale !== 'en' && ((e.target as HTMLElement).style.color = '#0693e3')}
+                  onMouseLeave={(e) => locale !== 'en' && ((e.target as HTMLElement).style.color = '')}
                 >
                   EN
                 </button>
@@ -116,8 +116,8 @@ export default function Header() {
                       : 'text-gray-700'
                   }`}
                   style={locale === 'ja' ? {backgroundColor: '#0693e3'} : {}}
-                  onMouseEnter={(e) => locale !== 'ja' && (e.target.style.color = '#0693e3')}
-                  onMouseLeave={(e) => locale !== 'ja' && (e.target.style.color = '')}
+                  onMouseEnter={(e) => locale !== 'ja' && ((e.target as HTMLElement).style.color = '#0693e3')}
+                  onMouseLeave={(e) => locale !== 'ja' && ((e.target as HTMLElement).style.color = '')}
                 >
                   JP
                 </button>

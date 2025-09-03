@@ -119,8 +119,8 @@ export default function Contact() {
             disabled={status === 'loading'}
             className="w-full py-4 text-white font-semibold rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
             style={{backgroundColor: status === 'loading' ? '#0577c7' : '#0693e3'}}
-            onMouseEnter={(e) => status !== 'loading' && (e.target.style.backgroundColor = '#0577c7')}
-            onMouseLeave={(e) => status !== 'loading' && (e.target.style.backgroundColor = '#0693e3')}
+            onMouseEnter={(e) => status !== 'loading' && ((e.target as HTMLButtonElement).style.backgroundColor = '#0577c7')}
+            onMouseLeave={(e) => status !== 'loading' && ((e.target as HTMLButtonElement).style.backgroundColor = '#0693e3')}
           >
             {status === 'loading' ? 'Sending...' : 'Send Message'}
           </button>

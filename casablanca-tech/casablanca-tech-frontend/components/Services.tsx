@@ -146,7 +146,7 @@ export default function Services() {
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
               Contact us today to discuss your project requirements and learn how we can help bring your vision to life.
             </p>
-            <a href="#contact" className="inline-block px-8 py-3 text-white rounded transition font-semibold" style={{backgroundColor: '#0693e3'}} onMouseEnter={(e) => e.target.style.backgroundColor = '#0577c7'} onMouseLeave={(e) => e.target.style.backgroundColor = '#0693e3'}>
+            <a href="#contact" className="inline-block px-8 py-3 text-white rounded transition font-semibold" style={{backgroundColor: '#0693e3'}} onMouseEnter={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0577c7')} onMouseLeave={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0693e3')}>
               Contact Us
             </a>
           </div>
