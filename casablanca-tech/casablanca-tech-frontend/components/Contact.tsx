@@ -65,9 +65,7 @@ export default function Contact() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent outline-none transition"
-                style={{'--tw-ring-color': '#0693e3'}}
-                onFocus={(e) => e.target.style.setProperty('--tw-ring-color', '#0693e3')}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               />
             </div>
             <div>
@@ -81,9 +79,7 @@ export default function Contact() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:border-transparent outline-none transition"
-                style={{'--tw-ring-color': '#0693e3'}}
-                onFocus={(e) => e.target.style.setProperty('--tw-ring-color', '#0693e3')}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
               />
             </div>
           </div>
