@@ -1,0 +1,10 @@
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  base = "casablanca-tech/"
+  publish = "casablanca-tech-frontend/.next"
+  command = "cd casablanca-tech-frontend && npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
