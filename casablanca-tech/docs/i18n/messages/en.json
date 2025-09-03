@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Building Digital",
+    "subtitle": "Futures",
+    "tagline": "From Tokyo to the World",
+    "description": "Casablanca Technology bridges global engineering talent with Japanese business excellence. We deliver custom solutions that combine technical innovation with cultural understanding.",
+    "startProject": "Start Your Project",
+    "exploreServices": "Explore Services",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Global Clients", 
+      "satisfaction": "Client Satisfaction"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We combine technical excellence with deep understanding of Japanese business culture",
+    "customDev": {
+      "title": "Custom Development",
+      "description": "Full-stack development with Rails and Next.js, tailored to your unique business needs.",
+      "features": {
+        "api": "Ruby on Rails API",
+        "frontend": "Next.js Frontend", 
+        "database": "Database Design",
+        "architecture": "System Architecture"
+      }
+    },
+    "outsourcing": {
+      "title": "Engineering Outsourcing",
+      "description": "Augment your team with skilled engineers who understand both global and Japanese business contexts.",
+      "features": {
+        "extension": "Team Extension",
+        "project": "Project-based Work",
+        "flexible": "Flexible Engagement",
+        "cultural": "Cultural Bridge"
+      }
+    },
+    "consulting": {
+      "title": "Technical Consulting", 
+      "description": "Strategic guidance to help you navigate technology decisions and digital transformation.",
+      "features": {
+        "review": "Architecture Review",
+        "selection": "Tech Stack Selection",
+        "optimization": "Performance Optimization",
+        "practices": "Best Practices"
+      }
+    },
+    "learnMore": "Learn More",
+    "consultationCta": "Not sure which service fits your needs?",
+    "scheduleConsultation": "Schedule a Free Consultation"
+  },
+  "about": {
+    "title": "Bridging Worlds Through Technology",
+    "description1": "Founded by a former freelance backend developer, Casablanca Technology understands the unique challenges of building software that works across cultures and continents.",
+    "description2": "Based in the heart of Tokyo, we combine Japan's attention to detail and quality with global technical expertise. Our team speaks the language of both business and technology, ensuring seamless communication throughout your project.",
+    "description3": "Whether you need a new system built from scratch or want to enhance your existing team, we deliver solutions that respect your business culture while pushing technological boundaries.",
+    "experience": "Years Experience",
+    "projects": "Projects Delivered", 
+    "satisfaction": "Client Satisfaction",
+    "location": "Tokyo, Japan",
+    "gateway": "Your Gateway to Japanese Tech"
+  },
+  "contact": {
+    "title": "Let's Build Together",
+    "subtitle": "Ready to start your project? We'd love to hear from you.",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message",
+    "placeholder": "Tell us about your project...",
+    "send": "Send Message",
+    "required": "*"
+  },
+  "footer": {
+    "description": "Building bridges between global technology and Japanese business excellence from our base in Tokyo.",
+    "services": "Services",
+    "contact": "Contact",
+    "location": "Tokyo, Japan",
+    "email": "info@casablanca-tech.com",
+    "rights": "Casablanca Technology Limited. All rights reserved."
+  }
+}

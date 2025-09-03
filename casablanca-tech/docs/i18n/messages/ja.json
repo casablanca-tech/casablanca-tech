@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "services": "サービス",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "getStarted": "始める"
+  },
+  "hero": {
+    "title": "Building Digital",
+    "subtitle": "Futures", 
+    "tagline": "From Tokyo to the World",
+    "description": "カサブランカテクノロジーは、グローバルなエンジニアリング人材と日本のビジネス優秀性を結びつけます。技術革新と文化的理解を組み合わせたカスタムソリューションを提供します。",
+    "startProject": "プロジェクトを始める",
+    "exploreServices": "サービスを見る",
+    "stats": {
+      "projects": "プロジェクト完了数",
+      "clients": "グローバル顧客数",
+      "satisfaction": "顧客満足度"
+    }
+  },
+  "services": {
+    "title": "私たちのサービス",
+    "subtitle": "技術的優秀性と日本のビジネス文化への深い理解を組み合わせています",
+    "customDev": {
+      "title": "カスタム開発",
+      "description": "お客様独自のビジネスニーズに合わせたRailsとNext.jsによるフルスタック開発。",
+      "features": {
+        "api": "Ruby on Rails API",
+        "frontend": "Next.js フロントエンド",
+        "database": "データベース設計",
+        "architecture": "システムアーキテクチャ"
+      }
+    },
+    "outsourcing": {
+      "title": "エンジニアリングアウトソーシング",
+      "description": "グローバルと日本のビジネスコンテキストの両方を理解する熟練エンジニアでチームを強化。",
+      "features": {
+        "extension": "チーム拡張",
+        "project": "プロジェクトベース業務",
+        "flexible": "柔軟なエンゲージメント",
+        "cultural": "文化的架け橋"
+      }
+    },
+    "consulting": {
+      "title": "技術コンサルティング",
+      "description": "技術的意思決定とデジタル変革をナビゲートする戦略的ガイダンス。",
+      "features": {
+        "review": "アーキテクチャレビュー",
+        "selection": "技術スタック選定",
+        "optimization": "パフォーマンス最適化",
+        "practices": "ベストプラクティス"
+      }
+    },
+    "learnMore": "詳細を見る",
+    "consultationCta": "どのサービスがお客様のニーズに合うかわからない？",
+    "scheduleConsultation": "無料相談を予約"
+  },
+  "about": {
+    "title": "技術で世界を繋ぐ",
+    "description1": "元フリーランスのバックエンド開発者が設立したカサブランカテクノロジーは、文化や大陸を越えて機能するソフトウェア構築の独特な課題を理解しています。",
+    "description2": "東京の中心部に拠点を置き、日本の細部への配慮と品質へのこだわりを、グローバルな技術専門知識と組み合わせています。私たちのチームはビジネスと技術の両方の言語を話し、プロジェクト全体を通じてシームレスなコミュニケーションを確保します。",
+    "description3": "ゼロから新しいシステムを構築する必要がある場合でも、既存のチームを強化したい場合でも、私たちはお客様のビジネス文化を尊重しながら技術的境界を押し広げるソリューションを提供します。",
+    "experience": "年の経験",
+    "projects": "プロジェクト完了数",
+    "satisfaction": "顧客満足度",
+    "location": "東京、日本",
+    "gateway": "日本の技術への入口"
+  },
+  "contact": {
+    "title": "一緒に構築しましょう",
+    "subtitle": "プロジェクトを始める準備はできていますか？ぜひお聞かせください。",
+    "name": "お名前",
+    "email": "メールアドレス",
+    "company": "会社名",
+    "message": "メッセージ",
+    "placeholder": "プロジェクトについてお聞かせください...",
+    "send": "メッセージを送信",
+    "required": "※"
+  },
+  "footer": {
+    "description": "東京を拠点として、グローバル技術と日本のビジネス優秀性の架け橋を構築しています。",
+    "services": "サービス",
+    "contact": "お問い合わせ",
+    "location": "東京、日本", 
+    "email": "info@casablanca-tech.com",
+    "rights": "株式会社カサブランカテクノロジー 無断転載禁止"
+  }
+}

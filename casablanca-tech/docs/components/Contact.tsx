@@ -30,7 +30,7 @@ export default function Contact() {
       } else {
         setStatus('error')
       }
-    } catch {
+    } catch (error) {
       setStatus('error')
     }
   }
@@ -46,9 +46,9 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Let&apos;s Build Together</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Build Together</h2>
           <p className="text-xl text-gray-700">
-            Ready to start your project? We&apos;d love to hear from you.
+            Ready to start your project? We'd love to hear from you.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ export default function Contact() {
 
           {status === 'success' && (
             <div className="mt-4 p-4 bg-green-50 text-green-700 rounded-lg">
-              Thank you for your message! We&apos;ll get back to you soon.
+              Thank you for your message! We'll get back to you soon.
             </div>
           )}
 

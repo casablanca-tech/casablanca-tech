@@ -41,7 +41,6 @@ export default function Header() {
       <nav className="container-custom">
         <div className="flex justify-between items-center">
           <Link href="/" className="group flex items-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/casatech_logo.png" 
               alt="Casablanca Technology Ltd" 

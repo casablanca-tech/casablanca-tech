@@ -13,7 +13,7 @@ export default function About() {
                 the unique challenges of building software that works across cultures and continents.
               </p>
               <p className="text-lg">
-                Based in the heart of Tokyo, we combine Japan&apos;s attention to detail and quality 
+                Based in the heart of Tokyo, we combine Japan's attention to detail and quality 
                 with global technical expertise. Our team speaks the language of both business and 
                 technology, ensuring seamless communication throughout your project.
               </p>
