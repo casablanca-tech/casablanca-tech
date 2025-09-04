@@ -48,7 +48,7 @@ export default function Services() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="services" className="py-20 bg-white">
+    <section ref={sectionRef} id="services" className="pt-32 pb-20 bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className={`text-4xl font-bold text-gray-900 mb-4 ${isVisible ? 'animate-slideUp' : 'opacity-0'}`}>
