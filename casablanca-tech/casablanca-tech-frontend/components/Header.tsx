@@ -45,7 +45,7 @@ export default function Header() {
             <img 
               src="/casatech_logo.png" 
               alt="Casablanca Technology Ltd" 
-              className="h-24 w-auto max-w-md transform group-hover:scale-105 transition-transform mix-blend-multiply"
+              className="h-16 sm:h-20 md:h-24 w-auto max-w-[200px] sm:max-w-[250px] md:max-w-md transform group-hover:scale-105 transition-transform mix-blend-multiply"
             />
           </Link>
           
@@ -64,10 +64,10 @@ export default function Header() {
           </button>
 
           <div className={`${isMenuOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'} 
-            fixed md:relative top-0 right-0 h-screen md:h-auto w-80 md:w-auto
+            fixed md:relative top-0 right-0 h-screen md:h-auto w-72 md:w-auto
             bg-white md:bg-transparent shadow-2xl md:shadow-none
             transition-transform duration-300 ease-in-out md:transition-none
-            pt-20 md:pt-0 px-8 md:px-0
+            pt-24 md:pt-0 px-6 md:px-0 overflow-y-auto md:overflow-visible
           `}>
             <div className="flex flex-col md:flex-row md:items-center md:space-x-8">
               {navLinks.map((link) => (
@@ -75,7 +75,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="py-3 md:py-2 font-medium text-gray-700 transition-all duration-200"
+                  className="block md:inline-block py-3 md:py-2 font-medium text-gray-700 transition-all duration-200 border-b md:border-0 border-gray-100"
                   onMouseEnter={(e) => ((e.target as HTMLElement).style.color = '#0693e3')}
                   onMouseLeave={(e) => ((e.target as HTMLElement).style.color = '')}
                 >
@@ -85,7 +85,7 @@ export default function Header() {
               <Link
                 href="#contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="mt-6 md:mt-0 md:ml-4 px-6 py-2 text-white rounded transition text-center"
+                className="block w-full mt-6 md:mt-0 md:w-auto md:ml-4 px-4 py-2.5 text-white rounded transition text-center font-medium"
                 style={{backgroundColor: '#0693e3'}}
                 onMouseEnter={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0577c7')}
                 onMouseLeave={(e) => ((e.target as HTMLElement).style.backgroundColor = '#0693e3')}
@@ -94,30 +94,26 @@ export default function Header() {
               </Link>
               
               {/* Language Switcher */}
-              <div className="flex items-center gap-1 mt-4 md:mt-0 md:ml-4 border border-gray-300 rounded">
+              <div className="flex mt-6 md:mt-0 md:ml-4 border border-gray-300 rounded-md overflow-hidden bg-white">
                 <button
                   onClick={() => switchLanguage('en')}
-                  className={`px-3 py-1 text-sm font-medium transition-colors rounded-l ${
+                  className={`flex-1 px-4 py-2 text-sm font-medium transition-all ${
                     locale === 'en' 
                       ? 'text-white' 
-                      : 'text-gray-700'
+                      : 'text-gray-600 hover:bg-gray-50'
                   }`}
                   style={locale === 'en' ? {backgroundColor: '#0693e3'} : {}}
-                  onMouseEnter={(e) => locale !== 'en' && ((e.target as HTMLElement).style.color = '#0693e3')}
-                  onMouseLeave={(e) => locale !== 'en' && ((e.target as HTMLElement).style.color = '')}
                 >
                   EN
                 </button>
                 <button
                   onClick={() => switchLanguage('ja')}
-                  className={`px-3 py-1 text-sm font-medium transition-colors rounded-r ${
+                  className={`flex-1 px-4 py-2 text-sm font-medium transition-all ${
                     locale === 'ja' 
                       ? 'text-white' 
-                      : 'text-gray-700'
+                      : 'text-gray-600 hover:bg-gray-50'
                   }`}
                   style={locale === 'ja' ? {backgroundColor: '#0693e3'} : {}}
-                  onMouseEnter={(e) => locale !== 'ja' && ((e.target as HTMLElement).style.color = '#0693e3')}
-                  onMouseLeave={(e) => locale !== 'ja' && ((e.target as HTMLElement).style.color = '')}
                 >
                   JP
                 </button>
